@@ -1,4 +1,5 @@
-<li class='image-thumbnail'><a href="#">Title One</a></li>
-<li class='image-thumbnail'><a href="#">Title Two</a></li>
+{{#each images as |image|}}
 
-{{yield}}
+<li class='image-thumbnail'><a href="{{imgae.url}}">{{image.title}}</a></li>
+
+{{/each}}
