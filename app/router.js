@@ -6,7 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('image', function() {});
+  this.route('image', function() {
+    this.route('create');
+});
+
 });
 
 export default Router;
