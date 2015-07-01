@@ -33,6 +33,7 @@
     "ember-cli-uglify": "^1.0.1",
     "ember-data": "1.13.4",
     "ember-disable-proxy-controllers": "^1.0.0",
-    "ember-export-application-global": "^1.0.2"
+    "ember-export-application-global": "^1.0.2",
+    "ember-parse-adapter": "git://github.com/jacobthemyth/ember-parse-adapter.git#5602c0e197d5bba363836b265c128bd19e2af3d9"
   }
 }
