@@ -10,6 +10,7 @@ Router.map(function() {
     this.route('create');
 });
 
+  this.route('show');
 });
 
 export default Router;
