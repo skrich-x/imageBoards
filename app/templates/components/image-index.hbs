@@ -1,7 +1,14 @@
 {{#each model as |image|}}
   <li class="image-thumbnail">
-    <img src="{{image.url}}" alt="" />
-    <a href="{{image.url}}">{{image.title}}</a>
+    <h2>
+      {{#link-to 'image.show' pin}}
+        {{image.title}}
+      {{/link-to}}
+      <div>
+        <img src="{{image.url}}" alt="" />
+        <a href="{{image.url}}">{{image.title}}</a>
+      </div>
+    </h2>
   </li>
 {{/each}}
 

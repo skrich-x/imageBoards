@@ -8,9 +8,10 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('image', function() {
     this.route('create');
+    this.route('show', {path: '/pin_id'});
+
 });
 
-  this.route('show');
 });
 
 export default Router;
